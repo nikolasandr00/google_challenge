@@ -8,11 +8,11 @@ public class VideoPlayer {
 
     List<VideoPlaylist> PlayL = new ArrayList<VideoPlaylist>();
     private VideoLibrary videoLibrary = new VideoLibrary();
-    int remainingTime = 0;
-    String current_video = null;
-    String previous_video = null;
-    boolean pause = false;
-    boolean stop = false;
+    private int remainingTime = 0;
+    private String current_video = null;
+    private String previous_video = null;
+    private boolean pause = false;
+    private boolean stop = false;
 
     public VideoPlayer() {
         this.videoLibrary = new VideoLibrary();
